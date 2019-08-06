@@ -1,7 +1,7 @@
 {
   "name": "openapi2curl",
   "description": "Convert OpenAPI 3.0 to cURL examples",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": "Cristiano Betta @cbetta",
   "bin": {
     "openapi2curl": "./bin/run"
