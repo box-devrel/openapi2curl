@@ -38,7 +38,6 @@
   "repository": "box-devrel/openapi2curl",
   "scripts": {
     "posttest": "eslint .",
-    "test": "echo NO TESTS",
-    "build": "oclif-dev readme"
+    "test": "echo NO TESTS"
   }
 }
