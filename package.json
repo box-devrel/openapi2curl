@@ -1,0 +1,40 @@
+{
+  "name": "openapi2curl",
+  "description": "Convert OpenAPI 3.0 to cURL examples",
+  "version": "0.1.0",
+  "author": "Cristiano Betta @cbetta",
+  "bin": {
+    "openapi2curl": "./bin/run"
+  },
+  "bugs": "https://github.com/box-devrel/openapi2curl/issues",
+  "dependencies": {
+    "@oclif/command": "^1",
+    "@oclif/config": "^1",
+    "@oclif/plugin-help": "^2"
+  },
+  "devDependencies": {
+    "eslint": "^5.13",
+    "eslint-config-oclif": "^3.1"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "files": [
+    "/bin",
+    "/src"
+  ],
+  "homepage": "https://github.com/box-devrel/openapi2curl",
+  "keywords": [
+    "oclif"
+  ],
+  "license": "Apache-2.0",
+  "main": "src/index.js",
+  "oclif": {
+    "bin": "openapi2curl"
+  },
+  "repository": "box-devrel/openapi2curl",
+  "scripts": {
+    "posttest": "eslint .",
+    "test": "echo NO TESTS"
+  }
+}
